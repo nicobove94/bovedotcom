@@ -1,0 +1,101 @@
+/*
+    Color Pallet:
+    https://coolors.co/c5d1eb-92afd7-5a7684-395b50-1f2f16
+    #C5D1EB: Periwinkle Crayola
+    #92AFD7: Wild Blue Yonder
+    #5A7684: Cadet
+    #395B50: Feldgrau
+    #1F2F16: Phthalo Green
+*/
+/* Global Styles
+-------------------------------------------------*/
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    width: 63%;
+}
+
+a {
+    color: #C5D1EB;
+    background-color: #1F2F16;
+    text-decoration: none;
+    padding: 2px;
+    margin: 4px 0px 4px 0px;
+    border-radius: 2px;
+}
+
+a:hover {
+    background-color: rgba(31, 47, 22, 0.5);
+}
+
+body {
+    font-size: 1.1rem;
+    background-color: #C5D1EB;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer
+-------------------------------------------------*/
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    background-color: #395B50;
+    color: #C5D1EB;
+    margin: 0px auto;
+    border-radius: 2px;
+    padding: 0px 4px;
+
+    flex-direction: row;
+}
+
+.header-title {
+    padding: 5px 8px 10px 0px;
+    margin: 5px 8px 5px 0px;
+    border-radius: 2px;
+}
+
+
+/* Navigation Stuff
+-------------------------------------------------*/
+.nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 2px;
+    margin: 2px;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+/* Main Content
+-------------------------------------------------*/
+.main-content {
+    margin: 4px 0px 10px 10px;
+    padding: 4px 0px 10px 10px;
+}
+
+.main-content section {
+    margin: 4px 0px 4px 0px;
+    padding: 4px 0px 4px 4px;
+}
+
+.main-content h1{
+    margin-top: 2px;
+    padding-top: 2px;
+}
